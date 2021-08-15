@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Aero";
+	src: url("../fonts/Aero\ Matics\ Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--black: #000;
+	--white: #fff;
+	--dark-green: #78ced7;
+	--light-green: #c7f8fc;
+	--dark-yellow: #cbb055;
+	--light-yellow: #fcf2cf;
+	--dark-pink: #f189a5;
+	--light-pink: #ffc4d3;
+	--dark-purple: #ad6fae;
+	--light-purple: #ceb3ce;
+}
+
+body {
+	font-family: "Aero";
+}
+
+.row-custom {
+	width: 100%;
+}
+
+.bg-nav-primary {
+	background: transparent;
+}
+
+.bg-nav-primary a {
+	font-size: 1.75rem !important;
+}
+
+.bg-nav-secondary {
+	background-color: var(--black);
+	font-size: 1.3rem;
+}
+
+.bg-nav-secondary ul li a {
+	color: var(--white) !important;
+}
+
+.bg-page {
+	background: rgb(120, 206, 215);
+	background: linear-gradient(
+		90deg,
+		rgba(120, 206, 215, 1) 0%,
+		rgba(252, 222, 98, 1) 33%,
+		rgba(241, 137, 165, 1) 66%,
+		rgba(173, 111, 174, 1) 100%
+	);
+}
+
+.margin-center {
+	margin-left: auto;
+	margin-right: auto;
+}
